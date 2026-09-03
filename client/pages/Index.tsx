@@ -25,7 +25,7 @@ const categories = [
 ];
 
 const products = [
-  { name: "Handmade Assam Bamboo Basket", artisan: "Assam Bamboo Collective", price: "₹450–₹550", image: "https://www.authindia.com/assets/frontend/images/slider/5.jpg", tag: "Bamboo craft" },
+  { name: "Handmade Assam Bamboo Basket", artisan: "Assam Bamboo Collective", price: "₹450–₹550", image: "https://cdn.builder.io/api/v1/image/assets%2Fb278d7f1fe134d418f15a59f6846fa3f%2Fea639e000ef54d81b744450e38c648a4", tag: "Bamboo craft" },
   { name: "Indigo Blue Pottery Vase", artisan: "Rajasthan Blue Pottery Studio", price: "₹1,200–₹1,500", image: "https://www.authindia.com/uploads/categories/21747329878.jpg", tag: "Jaipur, Rajasthan" },
   { name: "Handwoven Cotton Saree", artisan: "Bengal Handloom Cooperative", price: "₹2,800–₹3,400", image: "https://www.authindia.com/uploads/categories/31747329888.jpg", tag: "West Bengal" },
 ];
