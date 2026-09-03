@@ -14,6 +14,14 @@ export default {
     },
     extend: {
       colors: {
+        artisan: {
+          paper: "#FAFAF7",
+          sky: "#EAF7FF",
+          cream: "#F3EEE5",
+          saffron: "#E28A10",
+          ink: "#171513",
+          line: "#E7E5DF",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -57,6 +65,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        sans: ["Manrope", "sans-serif"],
+        display: ["DM Serif Display", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
