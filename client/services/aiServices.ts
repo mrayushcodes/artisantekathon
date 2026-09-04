@@ -72,8 +72,8 @@ export const mockImageEnhancement = async (
   // Realistic simulated delay
   await new Promise((resolve) => setTimeout(resolve, 1400));
 
-  const fallbackRaw = 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&auto=format&fit=crop&q=80';
-  const enhanced = 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80';
+  const fallbackRaw = 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80';
+  const enhanced = 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80';
 
   return {
     originalUrl: rawImageUrl || fallbackRaw,

@@ -8,6 +8,8 @@ interface BeforeAfterSliderProps {
   afterLabel?: string;
   className?: string;
   aspectRatio?: string;
+  beforeFilter?: string;
+  afterFilter?: string;
 }
 
 export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
@@ -17,6 +19,8 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
   afterLabel = 'After AI (E-commerce Ready)',
   className = '',
   aspectRatio = 'aspect-[4/3]',
+  beforeFilter = 'brightness(0.82) contrast(0.88) saturate(0.78) sepia(0.08)',
+  afterFilter = 'brightness(1.06) contrast(1.12) saturate(1.2)',
 }) => {
   const [sliderPosition, setSliderPosition] = useState(50);
   const [activeTab, setActiveTab] = useState<'compare' | 'before' | 'after'>('compare');
@@ -70,12 +74,14 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
             src={beforeImage}
             alt="Raw photo"
             className="h-full w-full object-cover object-center"
+            style={{ filter: beforeFilter }}
           />
         ) : activeTab === 'after' ? (
           <img
             src={afterImage}
             alt="Enhanced photo"
             className="h-full w-full object-cover object-center"
+            style={{ filter: afterFilter }}
           />
         ) : (
           <>
@@ -84,6 +90,7 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
               src={afterImage}
               alt="Enhanced"
               className="absolute inset-0 h-full w-full object-cover object-center pointer-events-none"
+              style={{ filter: afterFilter }}
             />
 
             {/* Before Image (Clipped overlay) */}
@@ -95,7 +102,7 @@ export const BeforeAfterSlider: React.FC<BeforeAfterSliderProps> = ({
                 src={beforeImage}
                 alt="Raw"
                 className="absolute inset-0 h-full w-full object-cover object-center max-w-none"
-                style={{ width: '100%' }}
+                style={{ width: '100%', filter: beforeFilter }}
               />
             </div>
 

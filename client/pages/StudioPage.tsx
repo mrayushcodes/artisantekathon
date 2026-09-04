@@ -33,9 +33,9 @@ import {
 import { Product } from '@/types';
 
 const SAMPLE_RAW_IMAGE =
-  'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&auto=format&fit=crop&q=80';
+  'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80';
 const SAMPLE_ENHANCED_IMAGE =
-  'https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80';
+  'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80';
 
 export const StudioPage: React.FC = () => {
   const navigate = useNavigate();

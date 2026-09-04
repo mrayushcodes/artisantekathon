@@ -232,8 +232,8 @@ export const LandingPage: React.FC = () => {
 
                 {/* Interactive Slider */}
                 <BeforeAfterSlider
-                  beforeImage="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&auto=format&fit=crop&q=80"
-                  afterImage="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80"
+                  beforeImage="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80"
+                  afterImage="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80"
                   beforeLabel="Raw Workshop Photo"
                   afterLabel="AI Studio Enhancement"
                   aspectRatio="aspect-[4/3]"
