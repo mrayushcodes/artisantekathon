@@ -190,7 +190,7 @@ export const StudioPage: React.FC = () => {
         packaging: packagingCost,
         desiredMargin,
       },
-      aiInsight: 'Newly published via KarigarSetu AI Studio! ONDC sync active.',
+      aiInsight: 'Newly published via ArtisanAi Studio! ONDC sync active.',
       createdAt: new Date().toISOString().split('T')[0],
     };
 
@@ -787,7 +787,7 @@ export const StudioPage: React.FC = () => {
                     {t('pricingStepTitle')}
                   </h3>
                   <p className="mt-1 text-xs text-stone-500">
-                    Enter your real costs. KarigarSetu calculates a competitive price that protects your craft labour.
+                    Enter your real costs. ArtisanAi calculates a competitive price that protects your craft labour.
                   </p>
                 </div>
 

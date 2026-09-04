@@ -60,7 +60,7 @@ export const Navbar: React.FC = () => {
               <Sparkles size={16} />
             </div>
             <span className="text-lg font-black tracking-tight text-stone-900">
-              Karigar<span className="text-amber-600">Setu</span>
+              Artisan<span className="text-amber-600">Ai</span>
             </span>
           </Link>
 
@@ -99,8 +99,8 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-1.5 rounded-full bg-stone-900 px-3.5 py-1.5 text-xs font-bold text-white hover:bg-stone-800 transition shadow-sm"
           >
             <Bot size={15} className="text-amber-400" />
-            <span className="hidden sm:inline">Karigar</span>
-            <span>AI</span>
+            <span className="hidden sm:inline">Artisan</span>
+            <span>Ai</span>
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
           </button>
 

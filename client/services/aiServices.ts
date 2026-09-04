@@ -1,4 +1,4 @@
-// Mock AI Services Abstraction for KarigarSetu
+// Mock AI Services Abstraction for ArtisanAi
 // Separate from UI components for clean architecture and future live AI/Gemini integration.
 
 export interface ImageEnhancementResult {
@@ -233,5 +233,5 @@ export const mockBusinessAdvisor = async (userQuery: string): Promise<string> =>
     return 'Based on autumn buyer demand trends, handmade tote bags and lightweight summer stoles are selling fastest with high re-orders. Consider making small accessory items using leftover Phulkari fabric.';
   }
 
-  return 'Namaste Gurpreet! I am your digital business manager. I can help calculate prices, improve your product story, find bulk buyers, or prepare your catalog for ONDC and GeM marketplaces.';
+  return 'Namaste Gurpreet! I am your ArtisanAi digital business manager. I can help calculate prices, improve your product story, find bulk buyers, or prepare your catalog for ONDC and GeM marketplaces.';
 };

@@ -88,7 +88,7 @@ export const AIAssistantDrawer: React.FC = () => {
             <div>
               <div className="flex items-center gap-1.5">
                 <h3 className="font-extrabold text-base tracking-tight text-white">
-                  KarigarSetu AI
+                  ArtisanAi
                 </h3>
                 <span className="flex h-2 w-2 rounded-full bg-emerald-400" />
               </div>
@@ -123,7 +123,7 @@ export const AIAssistantDrawer: React.FC = () => {
               >
                 {msg.sender === 'assistant' && (
                   <div className="mb-1 flex items-center gap-1 text-[11px] font-bold text-amber-600">
-                    <Sparkles size={12} /> KarigarSetu AI
+                    <Sparkles size={12} /> ArtisanAi
                   </div>
                 )}
                 <p className="whitespace-pre-wrap">{msg.text}</p>
@@ -207,7 +207,7 @@ export const AIAssistantDrawer: React.FC = () => {
             </button>
           </form>
           <p className="mt-2 text-center text-[11px] text-stone-400">
-            Powered by KarigarSetu Handicraft Intelligence Engine
+            Powered by ArtisanAi Handicraft Intelligence Engine
           </p>
         </div>
       </div>

@@ -43,7 +43,7 @@ export const Sidebar: React.FC = () => {
           <div>
             <div className="flex items-center gap-1">
               <span className="text-xl font-black tracking-tight text-stone-900">
-                Karigar<span className="text-amber-600">Setu</span>
+                Artisan<span className="text-amber-600">Ai</span>
               </span>
             </div>
             <span className="text-[10px] font-bold uppercase tracking-widest text-stone-500">

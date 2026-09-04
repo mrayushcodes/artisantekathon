@@ -182,7 +182,7 @@ export const BuyersPage: React.FC = () => {
               <div className="mt-5 border-t border-stone-100 pt-3">
                 <span className="text-xs font-bold text-stone-400">
                   {partner.status === 'Integration Ready'
-                    ? 'Active on KarigarSetu'
+                    ? 'Active on ArtisanAi'
                     : 'Pilot Underway'}
                 </span>
               </div>

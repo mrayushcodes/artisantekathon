@@ -54,7 +54,7 @@ export const LandingPage: React.FC = () => {
             </div>
             <div>
               <span className="text-2xl font-black tracking-tight text-stone-900">
-                Karigar<span className="text-amber-600">Setu</span>
+                Artisan<span className="text-amber-600">Ai</span>
               </span>
               <span className="block text-[10px] font-bold uppercase tracking-widest text-stone-500">
                 {language === 'hi' ? 'हुनर से व्यापार तक' : 'From Craft to Commerce'}
@@ -143,7 +143,7 @@ export const LandingPage: React.FC = () => {
               {/* Core Transformation Pipeline Chips */}
               <div className="mt-8 rounded-2xl border border-stone-200 bg-white/80 p-4 shadow-sm backdrop-blur-xs">
                 <div className="text-[11px] font-bold uppercase tracking-wider text-stone-400 mb-2">
-                  The KarigarSetu 1-Click Transformation
+                  The ArtisanAi 1-Click Transformation
                 </div>
                 <div className="flex flex-wrap items-center gap-2 text-xs font-bold text-stone-700">
                   <span className="rounded-lg bg-stone-100 px-2.5 py-1">📷 Raw Photo</span>
@@ -244,7 +244,7 @@ export const LandingPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Value Proposition Comparison: Before AI vs KarigarSetu vs After AI */}
+      {/* Value Proposition Comparison: Before AI vs ArtisanAi vs After AI */}
       <section id="transformation" className="border-y border-stone-200 bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -252,7 +252,7 @@ export const LandingPage: React.FC = () => {
               The 10x Difference
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-black text-stone-900">
-              Why Traditional Artisans Need KarigarSetu
+              Why Traditional Artisans Need ArtisanAi
             </h2>
             <p className="mt-4 text-stone-600">
               Transforming physical handicraft skills into high-converting digital commerce without middlemen exploitation.
@@ -293,14 +293,14 @@ export const LandingPage: React.FC = () => {
               </div>
             </div>
 
-            {/* Card 2: KarigarSetu AI (The Bridge) */}
+            {/* Card 2: ArtisanAi (The Bridge) */}
             <div className="rounded-3xl border-2 border-amber-400 bg-stone-900 p-8 text-white shadow-xl flex flex-col justify-between relative overflow-hidden">
               <div className="absolute top-0 right-0 bg-amber-500 px-4 py-1 text-[10px] font-black text-stone-950 uppercase tracking-widest rounded-bl-xl">
                 The Engine
               </div>
               <div>
                 <div className="inline-flex rounded-full bg-amber-500/20 px-3 py-1 text-xs font-bold text-amber-300">
-                  KarigarSetu AI Suite
+                  ArtisanAi Suite
                 </div>
                 <h3 className="mt-4 text-2xl font-black text-white">
                   Intelligent Manager
@@ -525,9 +525,9 @@ export const LandingPage: React.FC = () => {
         <div className="mx-auto flex max-w-7xl flex-col sm:flex-row items-center justify-between gap-6 px-6 lg:px-8 text-xs text-stone-500">
           <div className="flex items-center gap-2">
             <div className="grid h-6 w-6 place-items-center rounded-lg bg-amber-500 text-stone-950 font-black text-xs">
-              K
+              A
             </div>
-            <span className="font-bold text-stone-800">KarigarSetu</span>
+            <span className="font-bold text-stone-800">ArtisanAi</span>
             <span>· Built with respect for every Indian artisan & maker.</span>
           </div>
 

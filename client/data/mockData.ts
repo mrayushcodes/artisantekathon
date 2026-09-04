@@ -379,7 +379,7 @@ export const MARKETPLACE_PARTNERS: MarketplacePartner[] = [
     type: 'Decentralized Indian E-commerce',
     logo: '🌐',
     status: 'Integration Ready',
-    description: 'Direct integration ready for KarigarSetu artisans. Enables one-click catalog publishing across Paytm, Mystore, Craftsvilla, and buyer apps across India.',
+    description: 'Direct integration ready for ArtisanAi artisans. Enables one-click catalog publishing across Paytm, Mystore, Craftsvilla, and buyer apps across India.',
     benefits: ['Zero commission direct selling', 'Access to 10M+ buyers across India', 'Artisan keeps 97% of sale revenue'],
   },
   {
@@ -389,7 +389,7 @@ export const MARKETPLACE_PARTNERS: MarketplacePartner[] = [
     type: 'Govt Procurement',
     logo: '🏛️',
     status: 'Coming Soon',
-    description: 'KarigarSetu is finalizing automated compliance mapping for GeM Saras collection, allowing govt ministries and PSUs to buy directly from verified artisans.',
+    description: 'ArtisanAi is finalizing automated compliance mapping for GeM Saras collection, allowing govt ministries and PSUs to buy directly from verified artisans.',
     benefits: ['Government ministry bulk orders', 'Pre-qualified procurement tenders', 'Direct DBT bank payouts'],
   },
   {
@@ -408,7 +408,7 @@ export const TRANSLATIONS = {
   en: {
     brandTagline: 'From Craft to Commerce.',
     heroTitle: 'Turn Your Craft Into a Digital Business.',
-    heroSubtitle: 'KarigarSetu uses AI to help artisans photograph, describe, price and sell their products online — without needing technical expertise.',
+    heroSubtitle: 'ArtisanAi uses AI to help artisans photograph, describe, price and sell their products online — without needing technical expertise.',
     startSelling: 'Start Selling',
     exploreDemo: 'Explore Demo',
     tryDemo: 'Try Demo',
@@ -495,12 +495,12 @@ export const TRANSLATIONS = {
     aiRecommendation: '✨ AI Recommendation',
     aiRecommendationText: 'Your Phulkari products are performing best. Consider creating 2–3 variations with different colors.',
     expandMarketTitle: 'Expand Your Market',
-    expandMarketSub: 'KarigarSetu is designed to eventually connect artisans with government-supported and open digital marketplaces.',
+    expandMarketSub: 'ArtisanAi is designed to eventually connect artisans with government-supported and open digital marketplaces.',
   },
   hi: {
     brandTagline: 'हुनर से व्यापार तक।',
     heroTitle: 'अपने हुनर को बनाएं डिजिटल व्यापार।',
-    heroSubtitle: 'कारीगरसेतु AI की मदद से कारीगरों को उत्पाद की फोटो लेने, विवरण लिखने, सही दाम तय करने और ऑनलाइन बेचने में मदद करता है — बिना किसी तकनीकी परेशानी के।',
+    heroSubtitle: 'ArtisanAi (कारीगर AI) की मदद से कारीगरों को उत्पाद की फोटो लेने, विवरण लिखने, सही दाम तय करने और ऑनलाइन बेचने में मदद करता है — बिना किसी तकनीकी परेशानी के।',
     startSelling: 'बेचना शुरू करें',
     exploreDemo: 'डेमो देखें',
     tryDemo: 'डेमो चलाएं',
@@ -587,6 +587,6 @@ export const TRANSLATIONS = {
     aiRecommendation: '✨ AI रणनीतिक सलाह',
     aiRecommendationText: 'आपके फुलकारी उत्पाद सबसे बेहतर प्रदर्शन कर रहे हैं। विभिन्न रंगों में 2-3 नए डिज़ाइन तैयार करें।',
     expandMarketTitle: 'बाज़ार का विस्तार करें',
-    expandMarketSub: 'कारीगरसेतु कारीगरों को सरकारी और खुले डिजिटल बाज़ारों (ONDC, GeM) से जोड़ने के लिए तैयार किया गया है।',
+    expandMarketSub: 'ArtisanAi कारीगरों को सरकारी और खुले डिजिटल बाज़ारों (ONDC, GeM) से जोड़ने के लिए तैयार किया गया है।',
   },
 };

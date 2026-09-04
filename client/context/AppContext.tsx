@@ -47,7 +47,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [language, setLanguage] = useState<Language>('en');
   const [artisan, setArtisan] = useState<ArtisanProfile>(INITIAL_ARTISAN);
   const [products, setProducts] = useState<Product[]>(() => {
-    const saved = localStorage.getItem('karigarsetu_products');
+    const saved = localStorage.getItem('artisanai_products');
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -65,7 +65,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [showLanguageModal, setShowLanguageModal] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem('karigarsetu_products', JSON.stringify(products));
+    localStorage.setItem('artisanai_products', JSON.stringify(products));
   }, [products]);
 
   const t = (key: keyof typeof TRANSLATIONS['en']): string => {

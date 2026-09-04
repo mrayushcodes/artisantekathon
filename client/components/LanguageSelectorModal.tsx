@@ -50,7 +50,7 @@ export const LanguageSelectorModal: React.FC = () => {
         </div>
 
         <p className="mb-6 text-sm text-stone-600">
-          KarigarSetu is built for Indian artisans. Switch anytime between English and हिन्दी for voice catalogs, AI pricing, and buyer interactions.
+          ArtisanAi is built for Indian artisans. Switch anytime between English and हिन्दी for voice catalogs, AI pricing, and buyer interactions.
         </p>
 
         <div className="grid grid-cols-2 gap-3 mb-6">
